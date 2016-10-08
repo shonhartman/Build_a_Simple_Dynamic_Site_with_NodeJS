@@ -1,0 +1,48 @@
+{
+  "name": "simple-dynamic-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shonhartman/Build_a_Simple_Dynamic_Site_with_NodeJS.git"
+  },
+  "author": "Shaun Hartman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shonhartman/Build_a_Simple_Dynamic_Site_with_NodeJS/issues"
+  },
+  "homepage": "https://github.com/shonhartman/Build_a_Simple_Dynamic_Site_with_NodeJS#readme",
+  "dependencies": {
+    "partialify": "^3.1.6"
+  },
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.17.1",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "eslint": "^3.7.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-notify": "^2.2.0",
+    "minify": "^2.0.12",
+    "partialify": "^3.1.6",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "browserify": {
+    "transform": [
+      "partialify"
+    ]
+  }
+}
